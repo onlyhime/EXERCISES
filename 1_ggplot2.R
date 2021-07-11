@@ -9,7 +9,7 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy))
 
 file_name = ""
-data0 = read_excel(file_name, sheet = "ç®å")
+data0 = read_excel(file_name, sheet = "sheet1")
 library(tidyverse)
 mpg
 
